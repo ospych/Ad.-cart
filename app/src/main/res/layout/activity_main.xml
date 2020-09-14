@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/s20"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/s20"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerInside"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samsung Galaxy S20 Ultra"
+        android:layout_below="@id/s20"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_android"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/title"/>
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_camera"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/android"/>
+    <ImageView
+        android:id="@+id/fingerprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fingerprint"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/camera"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_text"
+        android:layout_toEndOf="@id/android"
+        android:layout_below="@id/title"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_text"
+        android:layout_toEndOf="@id/camera"
+        android:layout_below="@id/android"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fingerprint_text"
+        android:layout_toEndOf="@id/fingerprint"
+        android:layout_below="@id/camera"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text"
+        android:layout_below="@id/fingerprint"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+      />
+
+
+</RelativeLayout>

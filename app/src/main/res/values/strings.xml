@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lesson 4</string>
+    <string name="android_text">Last version of Android</string>
+    <string name="camera_text">108 Mega Pixels and Super Zoom</string>
+    <string name="fingerprint_text">Fingerprint under the Super AMOLED screen</string>
+    <string name="main_text">
+        \tSamsung Galaxy S20 Ultra is the biggest smartphone in size compared to the Galaxy S20 series smartphones released in 2020.\n
+        \tThe smartphone is powered by the Exynos 990 – Global Octa-core Qualcomm Snapdragon 865 – USA processor.\n
+        \tThe device comes with a big display screen of 6.9 inches that consists of a Dynamic AMOLED 2X capacitive touchscreen that provides a resolution of 1440 x 3200 pixels.\n
+        \tThe display is protected with Corning Gorilla Glass 6 and comes with features such as HDR10+, Always-on display, and 120Hz@FHD, 60Hz@QHD.</string>
+</resources>
